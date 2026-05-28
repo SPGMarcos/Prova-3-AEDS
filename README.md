@@ -1,6 +1,6 @@
 # Comparação de Algoritmos de Caminho Mínimo 🚗📊
 
-Dijkstra + Heurística Gulosa + Benchmarks + Grafos Direcionados
+Dijkstra vs Heurística Gulosa 
 
 Projeto acadêmico desenvolvido para análise e comparação entre o algoritmo de Dijkstra e uma heurística gulosa aplicados ao problema de caminho mínimo em grafos direcionados ponderados.
 
