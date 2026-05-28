@@ -13,7 +13,7 @@ O sistema realiza:
 * Leitura de grandes instâncias reais;
 * Geração de gráficos comparativos.
 
----
+
 
 # 📌 Visão Geral
 
@@ -34,7 +34,7 @@ O objetivo é analisar:
 * Qualidade das soluções;
 * Comportamento em grafos grandes.
 
----
+
 
 # 🎯 Objetivos do Projeto
 
@@ -46,7 +46,7 @@ O objetivo é analisar:
 * Executar testes em instâncias reais;
 * Facilitar análise acadêmica dos algoritmos.
 
----
+
 
 # 🧠 Arquitetura do Projeto
 
@@ -54,7 +54,7 @@ Fluxo principal:
 
 Geração/Leitura do Grafo → Execução dos Algoritmos → Benchmark → Coleta de Métricas → Geração de Gráficos
 
----
+
 
 # 📁 Estrutura do Projeto
 
@@ -78,7 +78,7 @@ project/
 └── requirements.txt
 ```
 
----
+
 
 # ⚙️ Principais Funcionalidades
 
@@ -97,7 +97,7 @@ Os pesos são gerados utilizando:
 random.randint(1, 100)
 ```
 
----
+
 
 ## 🔹 Algoritmo de Dijkstra
 
@@ -120,7 +120,7 @@ O algoritmo retorna:
 * Funciona com pesos positivos;
 * Excelente robustez.
 
----
+
 
 ## 🔹 Heurística Gulosa
 
@@ -135,7 +135,7 @@ A heurística gulosa seleciona sempre a menor aresta local disponível.
 
 O algoritmo evita ciclos utilizando controle de vértices visitados.
 
----
+
 
 # 📊 Benchmarks e Testes
 
@@ -153,7 +153,7 @@ Para cada grafo:
 * tempo de execução é medido;
 * memória utilizada pode ser monitorada.
 
----
+
 
 # 📈 Gráficos Gerados
 
@@ -175,7 +175,7 @@ Os gráficos mostram:
 * comportamento dos algoritmos;
 * diferença de complexidade.
 
----
+
 
 # 🌎 Instâncias Reais
 
@@ -200,7 +200,7 @@ O sistema suporta execução em grandes redes viárias:
 
 O parser realiza leitura otimizada linha por linha para reduzir consumo de memória.
 
----
+
 
 # 🔍 Contagem de Comparações
 
@@ -223,7 +223,7 @@ São contabilizadas:
 * verificações de visitados;
 * decisões de avanço no caminho.
 
----
+
 
 # 🚀 Como Executar
 
@@ -233,7 +233,7 @@ São contabilizadas:
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Executar o Projeto
 
@@ -241,7 +241,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
+
 
 ## Alterar Número Máximo de Vértices
 
@@ -258,7 +258,7 @@ $env:MAX_VERTICES=100
 python main.py
 ```
 
----
+
 
 # 📡 Como Adicionar Instâncias
 
@@ -282,7 +282,7 @@ Exemplo:
 5 9 3
 ```
 
----
+
 
 # 📊 Comparação Entre Algoritmos
 
@@ -295,7 +295,7 @@ Exemplo:
 
 ❌ Pode possuir maior custo computacional
 
----
+
 
 ## 🔹 Heurística Gulosa
 
@@ -306,7 +306,7 @@ Exemplo:
 ❌ Não garante menor caminho
 ❌ Sensível à estrutura do grafo
 
----
+
 
 # 📈 Análise dos Resultados
 
@@ -324,7 +324,7 @@ Isso aumenta:
 
 O Dijkstra tende a possuir maior controle interno, enquanto a heurística gulosa sacrifica qualidade da solução em troca de simplicidade.
 
----
+
 
 # 🛡️ Características Técnicas
 
@@ -338,11 +338,13 @@ O Dijkstra tende a possuir maior controle interno, enquanto a heurística gulosa
 * Código comentado;
 * Estrutura acadêmica simplificada.
 
----
+
 
 # 👨‍💻 Autor
 
 Marcos Gabriel Ferreira Miranda
+
+Aluno: CEFET-MG, ENgenharia da computação
 
 Desenvolvedor de Software | IoT | Automação Residencial e Agrícola
 
